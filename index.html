@@ -1,12 +1,256 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jesam Investments LLC</title>
-</head>
-<body>
-[user_html_code]
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesam Investments LLC</title>
+  </head>
+  <body>
+    <style>
+      .titulo-jesam {
+        background-color: #f5f5f5;
+        color: #D4AF37;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        padding: 40px 20px;
+        font-family: 'Helvetica Neue', sans-serif;
+        margin: 0;
+        border-bottom: 2px solid #D4AF37;
+      }
+
+      @media (max-width: 768px) {
+        .titulo-jesam {
+          font-size: 28px;
+          padding: 30px 15px;
+        }
+      }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #111;
+        padding: 40px 20px;
+        border-radius: 12px;
+        font-family: 'Helvetica Neue', sans-serif;
+        margin-top: 0;
+      }
+
+      .card-text {
+        flex: 1 1 400px;
+        padding: 20px;
+      }
+
+      .card-text h2 {
+        font-size: 32px;
+        color: #D4AF37;
+        margin-bottom: 15px;
+      }
+
+      .card-text p {
+        font-size: 17px;
+        color: #e0e0e0;
+        line-height: 1.6;
+        margin-bottom: 0;
+      }
+
+      .card-img {
+        flex: 1 1 300px;
+        text-align: center;
+        padding: 0px;
+        margin-top: -30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+      }
+
+      .card-img img {
+        max-width: 90%;
+        height: auto;
+        border-radius: 12px;
+        border: 3px solid #D4AF37;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+      }
+
+      .card-img img:hover {
+        transform: scale(1.02);
+      }
+
+      @media (max-width: 768px) {
+        .card-container {
+          flex-direction: column;
+        }
+
+        .card-text {
+          text-align: center;
+          padding-bottom: 0;
+        }
+
+        .card-img {
+          margin-top: -40px;
+        }
+      }
+
+      .servicios-container {
+        background-color: #f9f9f9;
+        color: #111;
+        padding: 60px 20px;
+        text-align: center;
+        font-family: 'Helvetica Neue', sans-serif;
+      }
+
+      .servicios-container h2 {
+        font-size: 32px;
+        color: #111;
+        margin-bottom: 20px;
+      }
+
+      .servicios-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+      }
+
+      .servicio {
+        background-color: #fff;
+        border: 2px solid gold;
+        border-radius: 12px;
+        padding: 25px;
+        width: 280px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        transition: transform 0.3s ease;
+      }
+
+      .servicio:hover {
+        transform: translateY(-5px);
+      }
+
+      .servicio h3 {
+        color: #D4AF37;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .servicio p {
+        color: #444;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 768px) {
+        .servicio {
+          width: 100%;
+        }
+      }
+    </style>
+
+    <h1 class="titulo-jesam">Jesam Investments LLC</h1>
+
+    <div class="card-container">
+      <div class="card-text">
+        <h2>Más de 20 años de experiencia en el mercado</h2>
+        <p>Especialistas en distribución y desarrollo comercial. Ofrecemos soluciones eficientes y personalizadas para marcas que desean expandirse y posicionarse con fuerza en el mercado estadounidense.</p>
+      </div>
+      <div class="card-img">
+        <img alt="Distribuidor Jesam Investments" src="https://cdn.shopify.com/s/files/1/0747/5560/4792/files/Diseno_sin_titulo_20250416_194001_0000.png?v=1744859132">
+      </div>
+    </div>
+
+    <div class="servicios-container">
+      <h2>¿Qué ofrecemos?</h2>
+      <div class="servicios-grid">
+        <div class="servicio">
+          <h3>Experiencia Comercial</h3>
+          <p>Más de 20 años liderando empresas en Latinoamérica, con visión estratégica y sólida trayectoria en distribución y desarrollo de productos.</p>
+        </div>
+        <div class="servicio">
+          <h3>Expansión Internacional</h3>
+          <p>Desde hace 3 años, desarrollando operaciones en Estados Unidos como CEO de Jesam Investments LLC, conectando marcas latinas con el mercado norteamericano.</p>
+        </div>
+        <div class="servicio">
+          <h3>Asesoría y Alianzas</h3>
+          <p>Apoyamos marcas con potencial exportador, construyendo relaciones sólidas para posicionarlas en tiendas, marketplaces y cadenas especializadas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: #111111; color: white; padding: 40px 20px; text-align: center;">
+      <h2 style="font-size: 28px; margin-bottom: 20px; color: gold;">Alianzas Estratégicas</h2>
+      <p style="max-width: 700px; margin: 0 auto 30px auto; font-size: 16px; line-height: 1.6;">Colaboramos con marcas comprometidas con la calidad, la innovación y el crecimiento sostenible. Nuestras alianzas están diseñadas para generar impacto real y resultados medibles en el mercado estadounidense.</p>
+      <div style="color: #d4af37; font-size: 20px; font-weight: bold; margin-bottom: 30px;">Algunas de las marcas con las que hemos trabajado</div>
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 15px; margin-bottom: 40px;">
+        <div style="display: flex; justify-content: center; gap: 40px;">
+          <img src="https://cdn.shopify.com/s/files/1/0747/5560/4792/files/IMG-20250421-WA0021.jpg?v=1745331399" alt="Logo 1" style="max-width: 80px; max-height: 60px;">
+          <img src="https://cdn.shopify.com/s/files/1/0747/5560/4792/files/IMG-20250421-WA0023.jpg?v=1745331442" alt="Logo 2" style="max-width: 80px; max-height: 60px;">
+          <img src="https://cdn.shopify.com/s/files/1/0747/5560/4792/files/PHOTO-2025-04-21-15-29-00.jpg?v=1745331469" alt="Logo 3" style="max-width: 80px; max-height: 60px;">
+        </div>
+        <div style="display: flex; justify-content: space-evenly; gap: 40px; margin-top: -10px;">
+          <img src="https://cdn.shopify.com/s/files/1/0747/5560/4792/files/IMG-20250421-WA0022.jpg?v=1745331424" alt="Logo 4" style="max-width: 80px; max-height: 60px;">
+          <img src="https://cdn.shopify.com/s/files/1/0747/5560/4792/files/PHOTO-2025-04-21-15-31-37.jpg?v=1745331458" alt="Logo 5" style="max-width: 80px; max-height: 60px;">
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+        <div style="background-color: #1c1c1c; border: 2px solid gold; border-radius: 12px; padding: 20px; width: 280px;">
+          <h3 style="color: gold; font-size: 18px; margin-bottom: 10px;">Expansión Comercial</h3>
+          <p style="font-size: 14px;">Desarrollamos estrategias que permiten a las marcas escalar con solidez en nuevos mercados.</p>
+        </div>
+        <div style="background-color: #1c1c1c; border: 2px solid gold; border-radius: 12px; padding: 20px; width: 280px;">
+          <h3 style="color: gold; font-size: 18px; margin-bottom: 10px;">Distribución Eficiente</h3>
+          <p style="font-size: 14px;">Optimizamos canales logísticos para asegurar una distribución efectiva y rentable.</p>
+        </div>
+        <div style="background-color: #1c1c1c; border: 2px solid gold; border-radius: 12px; padding: 20px; width: 280px;">
+          <h3 style="color: gold; font-size: 18px; margin-bottom: 10px;">Soporte Personalizado</h3>
+          <p style="font-size: 14px;">Ofrecemos acompañamiento estratégico y operativo para garantizar el éxito de cada marca aliada.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: #f9f9f9; color: #111; padding: 50px 20px; text-align: center; margin-bottom: 40px;">
+      <h2 style="font-size: 28px; margin-bottom: 20px; color: #111;">¿Por qué elegirnos?</h2>
+      <p style="max-width: 700px; margin: 0 auto 40px auto; font-size: 16px; line-height: 1.6;">Nuestra experiencia, enfoque personalizado y compromiso con la excelencia hacen de Jesam Investments el socio ideal para posicionar marcas en el mercado estadounidense.</p>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+        <div style="background-color: white; border: 2px solid gold; border-radius: 12px; padding: 25px; width: 280px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Experiencia" style="width: 40px; margin-bottom: 15px;">
+          <h3 style="font-size: 18px; margin-bottom: 10px;">+20 años de experiencia</h3>
+          <p style="font-size: 14px;">Amplio recorrido en comercio y distribución en EE.UU. y América Latina.</p>
+        </div>
+        <div style="background-color: white; border: 2px solid gold; border-radius: 12px; padding: 25px; width: 280px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="Soporte" style="width: 40px; margin-bottom: 15px;">
+          <h3 style="font-size: 18px; margin-bottom: 10px;">Soporte estratégico</h3>
+          <p style="font-size: 14px;">Acompañamiento personalizado para cada etapa del crecimiento de tu marca.</p>
+        </div>
+        <div style="background-color: white; border: 2px solid gold; border-radius: 12px; padding: 25px; width: 280px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/152/152531.png" alt="Conexiones" style="width: 40px; margin-bottom: 15px;">
+          <h3 style="font-size: 18px; margin-bottom: 10px;">Red de contactos</h3>
+          <p style="font-size: 14px;">Acceso a una red sólida de contactos en retail, logística y desarrollo comercial.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: #111; color: #fff; padding: 60px 20px; text-align: center; font-family: 'Helvetica Neue', sans-serif;">
+      <h2 style="font-size: 28px; margin-bottom: 10px; color: gold;">¿Quieres trabajar con nosotros?</h2>
+      <p style="font-size: 16px; color: #ccc; margin-bottom: 40px;">Hablemos de cómo llevar tu marca al mercado americano. Completa el siguiente formulario y nos pondremos en contacto contigo muy pronto.</p>
+      <form style="max-width: 600px; margin: 0 auto; text-align: left;" id="contact_form" action="/contact#contact_form" method="post">
+        <input value="contact" name="form_type" type="hidden">
+        <input value="✓" name="utf8" type="hidden">
+        <label style="color: gold; display: block; margin-bottom: 5px;" for="ContactFormName">Nombre</label>
+        <input style="width: 100%; padding: 12px; margin-bottom: 20px; border: none; border-radius: 6px; background-color: #1c1c1c; color: white;" required="" name="contact[name]" id="ContactFormName" type="text">
+        <label style="color: gold; display: block; margin-bottom: 5px;" for="ContactFormEmail">Correo electrónico</label>
+        <input style="width: 100%; padding: 12px; margin-bottom: 20px; border: none; border-radius: 6px; background-color: #1c1c1c; color: white;" required="" name="contact[email]" id="ContactFormEmail" type="email">
+        <label style="color: gold; display: block; margin-bottom: 5px;" for="ContactFormMessage">Mensaje</label>
+        <textarea style="width: 100%; padding: 12px; margin-bottom: 20px; border: none; border-radius: 6px; background-color: #1c1c1c; color: white;" required="" rows="5" name="contact[body]" id="ContactFormMessage"></textarea>
+        <button style="background-color: gold; color: #111; padding: 14px 30px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;" type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+
+    <div style="background-color: #000; padding: 40px 20px; text-align: center;">
+      <img src="https://cdn.shopify.com/s/files/1/0747/5560/4792/files/IMG-20250412-WA0016.jpg?v=1745243730" alt="Jesam Investments LLC Logo" style="max-width: 220px; margin-bottom: 20px;">
+      <p style="color: #ccc; font-size: 16px;">Contacto directo: <a style="color: #d4af37; text-decoration: none;" href="tel:+12109933303">+1 (210) 993-3303</a></p>
+    </div>
+  </body>
 </html>
